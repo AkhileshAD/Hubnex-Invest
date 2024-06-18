@@ -21,14 +21,13 @@ function Middlethird() {
                 </div>
                 <div className='Test-div1'>
                     <img className='test-star-img' src="/Images/Icon.svg" alt="Image Not Found" />
-                    <div className='test-h4-div'> <h4 className='Test-h4'>“Partnering with Hubnex Invest was a game-changer for our startup.
-                        Their network, resources, and investment have accelerated our growth and opened doors to new
-                        opportunities. We're proud to be part of the Hubnex Invest community and grateful
-                        for their unwavering support."</h4></div>
+                    <div className='test-h4-div'> <h4 className='Test-h4'>“Hubnex Invest’s support was instrumental in turning our vision into reality. 
+                        Their guidance, mentorship,and investment empowered us to overcome 
+                        challenges and achieve our goals. We’re grateful for their partnership and support on our Journey to success.”</h4></div>
                     <div className='varma-img'>  <img className='test-img-size' src="/Images/Ellipse 8.svg" alt="Image Not Found" />
-                        <h4 className='Test-h3'>Verma S</h4>
+                        <h4 className='Test-h3'>Jayasree M</h4>
 
-                    </div><h4 className='Test-h3-tag'>Founder C, Startup Z</h4>
+                    </div><h4 className='Test-h3-tag'>Founder A, Startup X</h4>
                 </div>
                 <div className='Test-div1'>
                     <img className='test-star-img' src="/Images/Icon.svg" alt="Image Not Found" />
@@ -38,9 +37,9 @@ function Middlethird() {
                         for their unwavering support."</h4></div>
                     <div className='varma-img'> 
                          <img className='test-img-size' src="/Images/Ellipse 9 (1).svg" alt="Image Not Found" />
-                        <h4 className='Test-h3'>Verma S</h4>
+                        <h4 className='Test-h3'>Anirudh H</h4>
 
-                    </div><h4 className='Test-h3-tag'>Founder C, Startup Z</h4>
+                    </div><h4 className='Test-h3-tag'>Founder B, Startup Y</h4>
                 </div>
             </div>
 

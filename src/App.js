@@ -4,7 +4,6 @@ import Middleone from './MiddleOne-Component/Middleone';
 import Footer from './footer-section/Footer';
 import Middlesecond from './MiddleSecond/Middlesecond';
 import Middlethird from './MiddleThird/Middlethird';
-import Hamburger from './Hamburger/Hamburger';
 
 
 function App() {
