@@ -25,6 +25,8 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
+
+
 .open {
   transform: rotate(-45deg);
   display: none;
@@ -167,6 +169,7 @@ body {
   background-color: #232323;
 }
 
+
 .big-img {
   position: relative;
   top: -73px;
@@ -227,84 +230,7 @@ body {
   border: 2px solid #8c73fb;
 }
 
-/* @media screen and (max-width: 1050px){
 
-  .big-img {
-     position: relative;
-     top: -71px;
-     left: 453px;
-     width: 100px;
-     height: 20px;
-   }
-   
-   
-   .img-siz{
-     position: relative;
-     height: 280px;
-     width: 800px;
-   }
-   .Home-name {
-   display: none;
-    
-  }
-
-  .h3tag {
-    font: Plus Jakarta Sans;
-    font-weight: 400;
-  position: relative;
-  right: 60px;
-  }
- 
-   .btn-sec {
-     position: relative;
-     left: 1200px;
-     top: -90px;
-     height: 40px;
-     max-width: 230px;
-   }
-   .unlock-con {
-     position: relative;
-     bottom: 161px;
-     max-width: 990px;
-     left: 40px;
-     line-height: 130px;
-   }
- 
-   .search {
-     position: relative;
-     left: 1110px;
-     top: -37px;
-     max-width: 50px;
-     height: 50px;
-   }
- 
-   .unlock-name {
-     color: #d2d6db;
-     font-size: 78px;
-     font-family: Plus Jakarta Sans;
-   }
- 
-   .empower {
-     position: relative;
-     bottom:180px;
-     max-width: 770px;
-     left: 40px;
-   }
-   .empower-name {
-     color: #d2d6db;
-     font-weight: 300;
-     font-size: 45px;
-   }
-
-   .btn-get-con {
-    position: relative;
-    bottom: 150px;
-    max-width: 690px;
-    left: 35px;
-    display: flex;
-    flex-direction: row;
-  }
- } */
 
 @media screen and (max-width: 1450px) {
   .big-img {
@@ -314,6 +240,7 @@ body {
     width: 100px;
     height: 120px;
   }
+
 
   .img-siz {
     position: relative;
@@ -490,6 +417,135 @@ body {
   }
 }
 
+@media screen and (max-width: 770px){
+  .big-img {
+    position: relative;
+    top: 80px;
+    left: 191px;
+  }
+
+  .img-siz {
+    position: relative;
+    height: 380%;
+  }
+  .hub-inv {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    line-height: 31px;
+    left: 20px;
+    font: Plus Jakarta Sans;
+    font-size: 20px;
+    top: -14px;
+  }
+
+  .h3tag {
+    font: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .Home-name {
+    position: relative;
+    display: none;
+    flex-direction: row;
+    max-width: 550px;
+    justify-content: space-around;
+    left: 170px;
+    top: 20px;
+  }
+
+  .btn-sec {
+    position: relative;
+    left: 800px;
+    top: -78px;
+    height: 40px;
+    max-width: 230px;
+    display: none;
+  }
+  .unlock-con {
+    position: relative;
+    bottom: -21px;
+    max-width: 450px;
+    left: 30px;
+    line-height: 55px;
+  }
+  .unlock-name {
+    color: #d2d6db;
+    font-size: 35px;
+    font-family: Plus Jakarta Sans;
+  }
+  .search {
+    position: relative;
+    left: 740px;
+    top: -20px;
+    max-width: 50px;
+    display: none;
+    height: 50px;
+  }
+
+  .empower {
+    position: relative;
+    bottom: -25px;
+    max-width: 420px;
+    left: 30px;
+  }
+  .empower-name {
+    color: #d2d6db;
+    font-weight: 300;
+    font-size: 25px;
+  }
+
+  .btn-get-con {
+    position: relative;
+    bottom:-30px;
+    max-width: 690px;
+    left: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn-book {
+    padding: 5px;
+    width: 160px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid #d2d6db;
+    color: #d2d6db;
+  }
+  
+  .btn-get {
+    padding: 5px;
+    width: 160px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #6040ec;
+    color: #d2d6db;
+    border: 2px solid #8c73fb;
+  }
+
+  .navbar {
+    display: block;
+    width: 40px;
+  }
+  .hambur-posi {
+    position: relative;
+    right: 910px;
+    bottom: 455px;
+  }
+
+  .menu-posi {
+    position: relative;
+    right: 170px;
+    bottom: 492px;
+  }
+}
+
+
 @media screen and (max-width: 430px) {
   .navbar {
     display: block;
@@ -499,7 +555,7 @@ body {
   .hambur-posi {
     position: relative;
     right: 1270px;
-    top: 10px;
+    bottom: 410px;
   }
 
   .hub-inv {
@@ -509,11 +565,9 @@ body {
   .menu-posi {
     position: relative;
     right: 500px;
-    top: -10px;
+    bottom: 450px;
   }
   .menu {
-    background-color: red;
-    color: red;
     position: relative;
     left: 90px;
   }
@@ -530,19 +584,22 @@ body {
 
   .big-img {
     position: relative;
-    top: 27px;
+    top: 80px;
     left: 35px;
     width: 100px;
     height: 120px;
   }
+
+  
   .img-siz {
     position: relative;
     height: 280px;
   }
+  
 
   .unlock-con {
     position: relative;
-    bottom: 75px;
+    bottom: 15px;
     max-width: 20px;
     left: 10px;
     line-height: 30px;
@@ -555,7 +612,7 @@ body {
 
   .empower {
     position: relative;
-    bottom: 80px;
+    bottom: 10px;
     max-width: 270px;
     left: 10px;
   }
@@ -567,7 +624,7 @@ body {
 
   .btn-get-con {
     position: relative;
-    bottom: 70px;
+    bottom: 10px;
     max-width: 290px;
     left: 5px;
     display: flex;
@@ -603,7 +660,7 @@ body {
   .hambur-posi {
     position: relative;
     right: 1230px;
-    top: 10px;
+    bottom: 420px;
   }
 
   .hub-inv {
@@ -612,15 +669,16 @@ body {
   }
   .menu-posi {
     position: relative;
-    right: 500px;
-    top: -10px;
+    right: 470px;
+    top: -454px;
   }
   .menu {
-    background-color: red;
-    color: red;
     position: relative;
     left: 90px;
   }
+
+
+
 
   .Home-name {
     display: none;
@@ -634,7 +692,7 @@ body {
 
   .big-img {
     position: relative;
-    top: 27px;
+    top: 80px;
     left: 71px;
     width: 100px;
     height: 120px;
@@ -646,7 +704,7 @@ body {
 
   .unlock-con {
     position: relative;
-    bottom: 75px;
+    bottom: 25px;
     max-width: 20px;
     left: 10px;
     line-height: 30px;
@@ -659,7 +717,7 @@ body {
 
   .empower {
     position: relative;
-    bottom: 80px;
+    bottom: 20px;
     max-width: 270px;
     left: 10px;
   }
@@ -671,7 +729,7 @@ body {
 
   .btn-get-con {
     position: relative;
-    bottom: 70px;
+    bottom: 20px;
     max-width: 290px;
     left: 5px;
     display: flex;

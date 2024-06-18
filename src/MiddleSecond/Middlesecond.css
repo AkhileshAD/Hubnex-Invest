@@ -168,8 +168,7 @@
   margin-top: 30px;
 }
 
-
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 1450px) {
   .hr-tag {
     background-color: #d2d6db;
     position: relative;
@@ -184,7 +183,7 @@
   }
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1050px) {
   .hr-tag {
     background-color: #d2d6db;
     position: relative;
@@ -225,8 +224,7 @@
     max-width: 800px;
   }
 
-  .hubnex-story-succes{
-
+  .hubnex-story-succes {
     display: flex;
     text-align: center;
   }
@@ -255,7 +253,6 @@
     width: 220px;
     top: 120px;
   }
-  
 
   .cloud-h3 {
     font-family: Plus Jakarta Sans;
@@ -263,17 +260,16 @@
     font-size: 12px;
   }
 
-  .lap-pos-img{
+  .lap-pos-img {
     width: 200px;
   }
-  
+
   .cloud-h4 {
     font-family: Plus Jakarta Sans;
     font-weight: 200;
     margin-top: 3px;
     font-size: 12px;
   }
-
 
   .We-offer-con {
     position: relative;
@@ -294,10 +290,165 @@
   }
 }
 
+@media screen and (max-width: 770px) {
+  .Mid-sec-con {
+    background-color: black;
+    height: 4600px;
+    position: relative;
+    bottom: 3050px;
+  }
+
+  .success-con {
+    position: relative;
+    top: 30px;
+    background-color: #1e1e1e;
+    height: 2300px;
+    display: flex;
+    flex-direction: column;
+    color: #d2d6db;
+    text-align: center;
+  }
+
+  .success-h1 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    word-spacing: 3px;
+    font-size: 28px;
+  }
+
+  .success-h2 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 300;
+    max-width: 740px;
+    word-spacing: 2px;
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+  }
+  .cloud-h3 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  .lap-pos-img {
+    width: 70%;
+  }
+
+  .cloud-h4 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 200;
+    margin-top: 3px;
+    font-size: 22px;
+  }
+
+  .cloud-con {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin: 17px;
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    width: 720px;
+    top: 20px;
+    left: 5px;
+  }
+
+  .success-img-con {
+    position: relative;
+    bottom: 2020px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our-mission-con {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    word-spacing: 4px;
+    color: #d2d6db;
+    position: relative;
+    bottom: 1880px;
+  }
+
+  .We-offer-con {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 1840px;
+    max-width: 100%;
+    margin-block: 0px;
+  }
+
+  .We-offer-div {
+    display: flex;
+    justify-content: center;
+    max-width: 650px;
+    margin-inline: 13px;
+  }
+
+  .hr-tag {
+    display: none;
+  }
+
+  .hubnex-story-con {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    bottom: 1700px;
+  }
+
+  .start-con {
+    position: relative;
+    bottom: 2320px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-inline: 0px;
+  }
+
+  .start-x {
+    margin-top: 20px;
+    width: 500px;
+    font-size: 22px;
+  }
+
+  .start-h4-tag {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 300;
+    margin-top: 30px;
+  }
+  /* .start-x-h3 {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  .start-x-h4 {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    margin-top: 30px;
+    width: 350px;
+  } */
+}
+
 @media screen and (max-width: 430px) {
   .Mid-sec-con {
     background-color: black;
-    height: 4000px;
+    height: 4300px;
     position: relative;
     bottom: 2310px;
   }
@@ -318,10 +469,10 @@
     font-size: 18px;
   }
 
-  .lap-pos-img{
+  .lap-pos-img {
     width: 330px;
   }
-  
+
   .cloud-h4 {
     font-family: Plus Jakarta Sans;
     font-weight: 200;
@@ -453,11 +604,13 @@
     text-align: center;
     margin-inline: 0px;
   }
-  
+
   .start-x {
     margin-top: 20px;
+    font-size: 18px;
+    width: 300px;
   }
-  
+
   .start-h4-tag {
     color: #d2d6db;
     font-family: Plus Jakarta Sans;
@@ -475,6 +628,6 @@
     font-family: Plus Jakarta Sans;
     font-weight: 400;
     margin-top: 30px;
-    width: 350px;
+    width: 300px;
   }
 }

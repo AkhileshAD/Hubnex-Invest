@@ -145,8 +145,7 @@
   font-family: Plus Jakarta Sans;
   margin-left: 20px;
 }
-@media screen and (max-width: 1450px){
-
+@media screen and (max-width: 1450px) {
   .card1 {
     font-family: Plus Jakarta Sans;
     height: 380px;
@@ -166,8 +165,7 @@
   }
 }
 
-@media screen and (max-width: 1050px){
- 
+@media screen and (max-width: 1050px) {
   .at-hubnex-h2 {
     color: #d2d6db;
     font-weight: 400;
@@ -191,6 +189,171 @@
     text-align: center;
     max-width: 730px;
     margin-inline: 30px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .top-clas {
+    position: relative;
+    bottom: 1300px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+
+  .img-head {
+    background-color: #ffffff26;
+    height: 180px;
+    width: 100%;
+    position: relative;
+    bottom: 1250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-filter: grayscale(100%) invert(50%) brightness(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) invert(50%) brightness(100%);
+  }
+
+  .img-respon {
+    height: 45px;
+    position: relative;
+    bottom: 40px;
+    left: 65px;
+    margin-inline: 18px;
+  }
+  .img-respon1 {
+    margin-inline: 18px;
+    height: 38px;
+    position: relative;
+    top: 33px;
+    right: 500px;
+  }
+
+  .what-we {
+    position: relative;
+    color: #d2d6db;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 1130px;
+  }
+  .what1 {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    word-spacing: 1px;
+    font-size: 28px;
+  }
+
+  .hub-act {
+    position: relative;
+    color: #d2d6db;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 1130px;
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    word-spacing: 1px;
+  }
+  .hub-h3 {
+    font-weight: 200;
+    max-width: 950px;
+    font-size: 15px;
+  }
+
+  .card-con {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    height: 2800px;
+    bottom: 570px;
+    color: #d2d6db;
+  }
+
+  .card1 {
+    font-family: Plus Jakarta Sans;
+    height: 420px;
+    max-width: 350px;
+    margin: 6px;
+    background-color: #ffffff26;
+    box-shadow: 0px 10px 20px 10px #5c27c080;
+    border-radius: 10px;
+    position: relative;
+    bottom: 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .h4-tag1 {
+    font-size: 12px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tech-h2 {
+    font-size: 12px;
+  }
+
+  .our-focus {
+    position: relative;
+    bottom: 3330px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .at-hubnex {
+    position: relative;
+    bottom: 3330px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .at-hubnex-h2 {
+    color: #d2d6db;
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+    font-size: 17px;
+    max-width: 630px;
+  }
+
+  .acces-con {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    bottom: 3250px;
+    max-width: 100%;
+    margin-block: 1px;
+  }
+
+  .access1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 370px;
+    margin-inline: 10px;
+    margin-block: 6px;
+  }
+
+  .access-h2 {
+    color: #d2d6db;
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+    margin-left: 20px;
+    font-size: 18px;
   }
 }
 
@@ -285,12 +448,20 @@
     font-family: Plus Jakarta Sans;
     height: 380px;
     max-width: 350px;
-    margin: 25px;
+    margin: 20px;
     background-color: #ffffff26;
     box-shadow: 0px 10px 20px 10px #5c27c080;
     border-radius: 10px;
     position: relative;
     bottom: 525px;
+  }
+
+  .h4-tag1 {
+    font-size: 14px;
+  }
+
+  .tech-h2 {
+    font-size: 19px;
   }
 
   .our-focus {
@@ -332,7 +503,6 @@
     bottom: 2410px;
     max-width: 100%;
     margin-block: 1px;
-   
   }
 
   .access1 {
@@ -353,18 +523,10 @@
     font-size: 22px;
   }
 
-  .h4-tag1{
-    font-size: 17px;
-  }
-
-  .tech-h2{
-    font-size: 19px;
-  }
+ 
 }
 
-
-@media screen and (width: 425px)
-{
+@media screen and (width: 425px) {
   .img-head {
     background-color: #ffffff26;
     height: 120px;
@@ -393,5 +555,4 @@
     top: 23px;
     right: 233px;
   }
-
 }

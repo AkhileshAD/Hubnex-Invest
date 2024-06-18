@@ -5,6 +5,11 @@
   bottom: 900px;
 }
 
+.Testimonials-font{
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+}
+
 .Testimonials-div {
   color: white;
   position: relative;
@@ -163,7 +168,8 @@
   border: 2px solid #6040ec;
   border-radius: 10px;
   color: #d2d6db;
-  font-weight: 900;
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
 }
 
 .for-more-div {
@@ -250,10 +256,7 @@
   left: 1050px;
   width: 300px;
 }
-.btn-book-demo {
-  font-family: Plus Jakarta Sans;
-  font-weight: 400;
-}
+
 
 @media screen and (max-width: 1450px){
   .Test-div1 {
@@ -401,13 +404,189 @@
   }
 }
 
+@media screen and (max-width: 770px){
+  .Testimonials-main-con {
+    background-color: black;
+    height: 2600px;
+    position: relative;
+    bottom: 3050px;
+  }
+
+  .Test-con {
+    position: relative;
+    top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .Test-div1 {
+    background-color: #ffffff26;
+    max-width:450px;
+    margin-inline: 30px;
+    border-radius: 20px;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .test-star-img {
+    position: relative;
+    top: 15px;
+    left: 150px;
+  }
+
+  .Test-h4 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    color: #d2d6db;
+    position: relative;
+    top: 20px;
+  }
+
+  .Test-h3-tag {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    color: #d2d6db;
+    position: relative;
+    left: 105px;
+    bottom: 0px;
+    width: 220px;
+  }
+
+  .test-img-size {
+    max-width: 90px;
+    position: relative;
+    left: 30px;
+    top: 65px;
+  }
+
+  .Test-h3 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    color: #d2d6db;
+    position: relative;
+    left: 45px;
+    top: 52px;
+    font-size: 18px;
+  }
+
+  .what-invest-con {
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 20px;
+    max-width: 700px;
+  }
+
+  .wht-invest {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    margin-block-start: 30px;
+    max-width: 700px;
+    font-size: 17px;
+  }
+
+  .btn-fa {
+    position: relative;
+    top: 220px;
+    left: 25px;
+    width: 300px;
+  }
+  .more-fa {
+    font-size: 15px;
+    padding: 10px;
+    width: 220px;
+    background: #d2d6db;
+    border: 2px solid #d2d6db;
+    border-radius: 10px;
+    color: black;
+    font-weight: 900;
+  }
+
+  .are-you-con {
+    position: relative;
+    top: 320px;
+    color: #d2d6db;
+    max-width: 300px;
+    height: 280px;
+    left: 20px;
+    line-height: 30px;
+  }
+  .are-you-div {
+    font-size: 22px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+  }
+
+  .btn-demo1 {
+    position: relative;
+    top: 260px;
+    left: 20px;
+    width: 100px;
+  }
+
+  .for-more-div {
+    position: relative;
+    left: 430px;
+    width: 300px;
+    top: -45px;
+    display: flex;
+    text-align: center;
+  }
+  .for-h4 {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+  }
+
+  .btn-book-demo {
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    background: #6040ec;
+    border: 2px solid #6040ec;
+    border-radius: 10px;
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+  }
+
+  .input-box-con {
+    position: relative;
+    left: 400px;
+    max-width: 150px;
+    height: 400px;
+  }
+
+  .inputbox {
+    position: relative;
+    width: 300px;
+    top: -40px;
+    left: 0px;
+    margin: 20px;
+  }
+
+  .btn-submit {
+    position: relative;
+    top: -90px;
+    left: 420px;
+    width: 280px;
+  }
+
+}
 
 @media screen and (max-width: 430px) {
   .Testimonials-main-con {
     background-color: black;
     height: 3050px;
     position: relative;
-    bottom: 2320px;
+    bottom: 2420px;
   }
 
   .Testimonials-div {
@@ -430,14 +609,14 @@
 
   .test-h4-div {
     position: relative;
-    max-width: 300px;
-    left: 15px;
-    top: 10px;
+    width: 330px;
+    left: 10px;
+    top: -9px;
   }
 
   .Test-div1 {
     background-color: #ffffff26;
-    max-width: 350px;
+    width: 350px;
     margin-inline: 30px;
     border-radius: 20px;
     height: 350px;
@@ -466,6 +645,8 @@
     font-family: Plus Jakarta Sans;
     font-weight: 400;
     color: #d2d6db;
+    position: relative;
+    bottom: 30px;
   }
 
   .varma-img {
@@ -515,12 +696,12 @@
 
   .are-you-con {
     position: relative;
-    top: 320px;
+    top: 310px;
     color: #d2d6db;
     max-width: 350px;
     height: 280px;
     left: 20px;
-    line-height: 30px;
+    line-height: 40px;
   }
   .are-you-div {
     font-size: 20px;
@@ -530,8 +711,8 @@
 
   .btn-demo1 {
     position: relative;
-    top: 230px;
-    left: 70px;
+    top: 220px;
+    left: 20px;
     width: 300px;
   }
 

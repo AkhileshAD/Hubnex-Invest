@@ -5,7 +5,7 @@ function Middlethird() {
         <div className='Testimonials-main-con'>
 
             <div className='Testimonials-div'>
-                <h1>Testimonials</h1>
+                <h1 className='Testimonials-font'>Testimonials</h1>
             </div>
             <div className='Test-con'>
                 <div className='Test-div1'>

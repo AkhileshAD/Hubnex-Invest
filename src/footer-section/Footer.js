@@ -33,10 +33,10 @@ function Footer() {
       </div>
 
       <div className="img-con">
-        <img src="/Images/Vector.svg" alt="Image Not Found" />
-        <img src="/Images/Vector (5).svg" alt="Image Not Found" />
-        <img src="/Images/Vector (6).svg" alt="Image Not Found" />
-        <img src="/Images/Vector (7).svg" alt="Image Not Found" />
+        <img className="linkdin-img" src="/Images/Vector.svg" alt="Image Not Found" />
+        <img className="linkdin-img" src="/Images/Vector (5).svg" alt="Image Not Found" />
+        <img className="linkdin-img" src="/Images/Vector (6).svg" alt="Image Not Found" />
+        <img className="linkdin-img" src="/Images/Vector (7).svg" alt="Image Not Found" />
       </div>
       
       <div className="get-t">

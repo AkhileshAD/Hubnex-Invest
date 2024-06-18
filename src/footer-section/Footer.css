@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
-.footer-container{
-position: relative;
-bottom: 900px;
-height: 0px;
+.footer-container {
+  position: relative;
+  bottom: 900px;
+  height: 0px;
 }
 .hubnex-in {
   font: Plus Jakarta Sans;
@@ -217,7 +217,7 @@ hr {
   
 } */
 
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 1450px) {
   .learn {
     max-width: 200px;
     display: flex;
@@ -257,7 +257,7 @@ hr {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .get-t {
     position: relative;
     font-family: Plus Jakarta Sans;
@@ -265,7 +265,7 @@ hr {
     left: 1120px;
     max-width: 200px;
   }
-  
+
   .g-img {
     position: relative;
     bottom: 855px;
@@ -276,7 +276,7 @@ hr {
     max-width: 28px;
     height: 60px;
   }
-  
+
   .numb {
     position: relative;
     bottom: 935px;
@@ -303,156 +303,296 @@ hr {
     max-width: 480px;
     font-family: Plus Jakarta Sans;
   }
-  
+
   .h3-t {
     font-weight: 400;
     word-spacing: 5px;
   }
-  
 }
 
-@media screen and (max-width: 1050px){
-  .footer-container{
+@media screen and (max-width: 1050px) {
+  .footer-container {
     position: relative;
     bottom: 1200px;
     height: 0px;
-    }
+  }
 
-    .hubnex-in {
-      font: Plus Jakarta Sans;
-      width: 140px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-    }
-    
-    .inv {
-      max-width: 100%;
-      font-weight: 600;
-      position: relative;
-      bottom: 50px;
-      left: -13px;
-    }
-    
-    .let-us-con {
-      max-width: 276px;
-      position: relative;
-      left: 20px;
-      bottom: 50px;
-    }
-    
-    .let {
-      font: Plus Jakarta Sans;
-      font-weight: 400;
-      font-size: 20px;
-    }
-    
-    .learn {
-      max-width: 200px;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      left: 400px;
-      top: -300px;
-      line-height: 52px;
-      font-size: 18px;
-      font-family: Plus Jakarta Sans;
-    }
-    
-    .learn-1 {
-      max-width: 200px;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      left: 550px;
-      bottom: 556px;
-      line-height: 52px;
-      font-size: 18px;
-      font-family: Plus Jakarta Sans;
-    }
-    
-    .connect-us {
-      position: relative;
-      bottom: 780px;
-      left: 800px;
-      font-family: Plus Jakarta Sans;
-      max-width: 200px;
-    }
+  .hubnex-in {
+    font: Plus Jakarta Sans;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 
-    .connect{
-      font-size: 18px;
-    }
-    .img-con {
-      position: relative;
-      bottom: 772px;
-      left: 760px;
-      max-width: 220px;
-      display: flex;
-      justify-content: space-between;
-    }
-    
-    .get-t {
-      position: relative;
-      font-family: Plus Jakarta Sans;
-      bottom: 775px;
-      left: 790px;
-      max-width: 200px;
-    }
-    
-    .g-img {
-      position: relative;
-      bottom: 780px;
-      left: 770px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      max-width: 28px;
-      height: 60px;
-    }
-    
-    .numb {
-      position: relative;
-      bottom: 859px;
-      left: 810px;
-      max-width: 138px;
-      height: 40px;
-      line-height: 18px;
-    }
-    .h4-tag {
-      font-weight: 400;
-      font-family: Plus Jakarta Sans;
-    }
-    hr {
-      position: relative;
-      bottom: 790px;
-      left: -10px;
-      max-width: 92%;
-      font-weight: 900;
-    }
-    .copyr {
-      position: relative;
-      bottom: 800px;
-      left: 320px;
-      max-width: 480px;
-      font-family: Plus Jakarta Sans;
-    }
-    
-    .h3-t {
-      font-weight: 400;
-      word-spacing: 5px;
-    }
+  .inv {
+    max-width: 100%;
+    font-weight: 600;
+    position: relative;
+    bottom: 50px;
+    left: -13px;
+  }
 
+  .let-us-con {
+    max-width: 276px;
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+  }
+
+  .let {
+    font: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .learn {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 400px;
+    top: -300px;
+    line-height: 52px;
+    font-size: 18px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .learn-1 {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 550px;
+    bottom: 556px;
+    line-height: 52px;
+    font-size: 18px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .connect-us {
+    position: relative;
+    bottom: 780px;
+    left: 800px;
+    font-family: Plus Jakarta Sans;
+    max-width: 200px;
+  }
+
+  .connect {
+    font-size: 18px;
+  }
+  .img-con {
+    position: relative;
+    bottom: 772px;
+    left: 760px;
+    max-width: 220px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .get-t {
+    position: relative;
+    font-family: Plus Jakarta Sans;
+    bottom: 775px;
+    left: 790px;
+    max-width: 200px;
+  }
+
+  .g-img {
+    position: relative;
+    bottom: 780px;
+    left: 770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 28px;
+    height: 60px;
+  }
+
+  .numb {
+    position: relative;
+    bottom: 859px;
+    left: 810px;
+    max-width: 138px;
+    height: 40px;
+    line-height: 18px;
+  }
+  .h4-tag {
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+  }
+  hr {
+    position: relative;
+    bottom: 790px;
+    left: -10px;
+    max-width: 92%;
+    font-weight: 900;
+  }
+  .copyr {
+    position: relative;
+    bottom: 800px;
+    left: 320px;
+    max-width: 480px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .h3-t {
+    font-weight: 400;
+    word-spacing: 5px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .footer-container {
+    position: relative;
+    bottom: 3050px;
+    height: 0px;
+  }
+  .hub {
+    font-weight: 600;
+  }
+
+  .hubnex-in {
+    font: Plus Jakarta Sans;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .inv {
+    max-width: 100%;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px;
+    left: -13px;
+  }
+
+  .let-us-con {
+    max-width: 206px;
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+  }
+
+  .let {
+    font: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .learn {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 300px;
+    top: -230px;
+    line-height: 35px;
+    font-size: 13px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .learn-1 {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 400px;
+    bottom: 405px;
+    line-height: 35px;
+    font-size: 13px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .connect-us {
+    position: relative;
+    bottom: 550px;
+    left: 580px;
+    font-family: Plus Jakarta Sans;
+    max-width: 130px;
+  }
+
+  .connect {
+    font-size: 15px;
+  }
+  .img-con {
+    position: relative;
+    bottom: 552px;
+    left: 575px;
+    max-width: 130px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .linkdin-img {
+    width: 18%;
+  }
+
+  .get-t {
+    position: relative;
+    font-family: Plus Jakarta Sans;
+    bottom: 550px;
+    left: 585px;
+    max-width: 130px;
+    font-size: 12px;
+  }
+
+  .g-img {
+    position: relative;
+    bottom: 555px;
+    left: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 18px;
+    height: 40px;
+  }
+
+  .numb {
+    position: relative;
+    bottom: 606px;
+    left: 600px;
+    max-width: 138px;
+    height: 40px;
+    line-height: 8px;
+    font-size: 12px;
+  }
+  .h4-tag {
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+  }
+  hr {
+    position: relative;
+    bottom: 570px;
+    left: 0px;
+    max-width: 92%;
+    font-weight: 900;
+  }
+  .copyr {
+    position: relative;
+    bottom: 578px;
+    left: 190px;
+    max-width: 480px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .h3-t {
+    font-weight: 400;
+    word-spacing: 5px;
+  }
 }
 
 @media screen and (max-width: 430px) {
-
-  .footer-container{
+  .footer-container {
     position: relative;
-    bottom: 2300px;
+    bottom: 2400px;
     height: 0px;
-    }
-  .container{
+  }
+  .container {
     height: 300px;
     background-color: black;
   }
@@ -462,23 +602,30 @@ hr {
     display: flex;
     flex-direction: row;
     position: relative;
-    left: 41px;
+    left: 43px;
+    font-size: 22px;
   }
 
   .inv {
     position: relative;
     left: -3px;
     top: 0px;
+    font-weight: 300;
   }
   .hub {
     position: relative;
     left: -8px;
   }
   .let-us-con {
-    max-width: 330px;
+    max-width: 360px;
     position: relative;
-    left: 40px;
+    left: 25px;
     top: 15px;
+   
+  }
+  .let{
+
+     font-size: 24px;
   }
   .learn {
     max-width: 200px;
@@ -498,11 +645,10 @@ hr {
     flex-direction: column;
     position: relative;
     left: 197px;
-    top:-272px;
+    top: -272px;
     line-height: 62px;
     font-size: 22px;
-    font-family:Plus Jakarta Sans;
-    
+    font-family: Plus Jakarta Sans;
   }
 
   .connect-us {
@@ -521,19 +667,18 @@ hr {
     justify-content: space-between;
   }
 
-  .connect{
-
+  .connect {
     font-size: 25px;
-
   }
   .get-t {
     position: relative;
     font-family: Plus Jakarta Sans;
     bottom: 135px;
-    left: 120px;
+    left: 105px;
     max-width: 200px;
+    font-size: 20px;
   }
-  
+
   .g-img {
     position: relative;
     bottom: 124px;
@@ -549,7 +694,7 @@ hr {
     bottom: 230px;
     left: 145px;
     max-width: 168px;
-    
+
     height: 40px;
     line-height: 24px;
     font-size: 22px;
@@ -570,5 +715,5 @@ hr {
     font-family: Plus Jakarta Sans;
     justify-content: center;
     text-align: center;
-  }  
+  }
 }
