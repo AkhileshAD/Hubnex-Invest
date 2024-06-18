@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header-Section/Header';
+import Middleone from './MiddleOne-Component/Middleone';
+import Footer from './footer-section/Footer';
+import Middlesecond from './MiddleSecond/Middlesecond';
+import Middlethird from './MiddleThird/Middlethird';
+import Hamburger from './Hamburger/Hamburger';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div className='app-con'>
+    <Header/>
+    <Middleone/> 
+    <Middlesecond/>
+    <Middlethird/>
+    <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;

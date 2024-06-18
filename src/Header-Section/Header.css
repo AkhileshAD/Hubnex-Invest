@@ -1,0 +1,699 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.navbar {
+  position: relative;
+  left: 0px;
+  display: none;
+}
+
+.menu-icon-line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.open {
+  transform: rotate(-45deg);
+  display: none;
+}
+.open2 {
+  transform: rotate(-135deg);
+  position: relative;
+  top: 11px;
+}
+.open3 {
+  transform: rotate(-45deg);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px; /* Adjust as per your design */
+  right: 20px; /* Adjust as per your design */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  left: 150px;
+  width: 150px;
+  background-color: #d2d6db;
+  display: none;
+}
+
+.menu .h3tag {
+  margin: 10px 0;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3tag:hover {
+  transform: scale(1.2);
+}
+
+.open {
+  transform: rotate(-45deg);
+  display: none;
+}
+.open2 {
+  transform: rotate(-135deg);
+  position: relative;
+  top: 11px;
+}
+.open3 {
+  transform: rotate(-45deg);
+}
+
+.Home-name {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  max-width: 952px;
+  justify-content: space-around;
+  left: 270px;
+  top: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px; /* Adjust as per your design */
+  right: 20px; /* Adjust as per your design */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  left: 100px;
+  width: 150px;
+}
+
+.menu .h3tag {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.header-v {
+  background-color: black;
+  height: 1930px;
+  width: 100%;
+}
+.header-con {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+}
+.hub-inv {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  line-height: 31px;
+  left: 50px;
+  font: Plus Jakarta Sans;
+  font-size: 20px;
+  top: -14px;
+}
+.spn1 {
+  font-weight: 400;
+}
+
+.h3tag {
+  font: Plus Jakarta Sans;
+  font-weight: 400;
+}
+.search {
+  position: relative;
+  left: 1270px;
+  top: -37px;
+  max-width: 50px;
+  height: 50px;
+}
+.img1 {
+  height: 35px;
+}
+.btn-sec {
+  position: relative;
+  left: 1400px;
+  top: -90px;
+  height: 40px;
+  max-width: 230px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  margin-right: 15px;
+  font-family: Plus Jakarta Sans;
+  color: white;
+  background-color: #232323;
+}
+
+.big-img {
+  position: relative;
+  top: -73px;
+  left: 642px;
+  max-width: 600px;
+}
+.unlock-con {
+  position: relative;
+  bottom: 861px;
+  max-width: 990px;
+  left: 60px;
+  line-height: 130px;
+}
+.unlock-name {
+  color: #d2d6db;
+  font-size: 88px;
+  font-family: Plus Jakarta Sans;
+}
+.empower {
+  position: relative;
+  bottom: 900px;
+  max-width: 600px;
+  left: 60px;
+}
+.empower-name {
+  color: #d2d6db;
+  font-weight: 300;
+  font-size: 35px;
+}
+.btn-get-con {
+  position: relative;
+  bottom: 880px;
+  max-width: 690px;
+  left: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-book {
+  padding: 15px;
+  width: 460px;
+  font-size: 23px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: transparent;
+  border: 2px solid #d2d6db;
+  color: #d2d6db;
+}
+
+.btn-get {
+  padding: 15px;
+  width: 460px;
+  font-size: 23px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #6040ec;
+  color: #d2d6db;
+  border: 2px solid #8c73fb;
+}
+
+/* @media screen and (max-width: 1050px){
+
+  .big-img {
+     position: relative;
+     top: -71px;
+     left: 453px;
+     width: 100px;
+     height: 20px;
+   }
+   
+   
+   .img-siz{
+     position: relative;
+     height: 280px;
+     width: 800px;
+   }
+   .Home-name {
+   display: none;
+    
+  }
+
+  .h3tag {
+    font: Plus Jakarta Sans;
+    font-weight: 400;
+  position: relative;
+  right: 60px;
+  }
+ 
+   .btn-sec {
+     position: relative;
+     left: 1200px;
+     top: -90px;
+     height: 40px;
+     max-width: 230px;
+   }
+   .unlock-con {
+     position: relative;
+     bottom: 161px;
+     max-width: 990px;
+     left: 40px;
+     line-height: 130px;
+   }
+ 
+   .search {
+     position: relative;
+     left: 1110px;
+     top: -37px;
+     max-width: 50px;
+     height: 50px;
+   }
+ 
+   .unlock-name {
+     color: #d2d6db;
+     font-size: 78px;
+     font-family: Plus Jakarta Sans;
+   }
+ 
+   .empower {
+     position: relative;
+     bottom:180px;
+     max-width: 770px;
+     left: 40px;
+   }
+   .empower-name {
+     color: #d2d6db;
+     font-weight: 300;
+     font-size: 45px;
+   }
+
+   .btn-get-con {
+    position: relative;
+    bottom: 150px;
+    max-width: 690px;
+    left: 35px;
+    display: flex;
+    flex-direction: row;
+  }
+ } */
+
+@media screen and (max-width: 1450px) {
+  .big-img {
+    position: relative;
+    top: -71px;
+    left: 453px;
+    width: 100px;
+    height: 120px;
+  }
+
+  .img-siz {
+    position: relative;
+    height: 780px;
+  }
+  .Home-name {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 822px;
+    justify-content: space-around;
+    left: 270px;
+    top: 10px;
+  }
+
+  .btn-sec {
+    position: relative;
+    left: 1200px;
+    top: -90px;
+    height: 40px;
+    max-width: 230px;
+  }
+  .unlock-con {
+    position: relative;
+    bottom: 161px;
+    max-width: 990px;
+    left: 40px;
+    line-height: 130px;
+  }
+
+  .search {
+    position: relative;
+    left: 1110px;
+    top: -37px;
+    max-width: 50px;
+    height: 50px;
+  }
+
+  .unlock-name {
+    color: #d2d6db;
+    font-size: 78px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .empower {
+    position: relative;
+    bottom: 180px;
+    max-width: 770px;
+    left: 40px;
+  }
+  .empower-name {
+    color: #d2d6db;
+    font-weight: 300;
+    font-size: 45px;
+  }
+
+  .btn-get-con {
+    position: relative;
+    bottom: 150px;
+    max-width: 690px;
+    left: 35px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .big-img {
+    position: relative;
+    top: -60px;
+    left: 138px;
+   
+  }
+  .img-siz {
+    position: relative;
+    height: 700px;
+  }
+  .hub-inv {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    line-height: 31px;
+    left: 20px;
+    font: Plus Jakarta Sans;
+    font-size: 20px;
+    top: -14px;
+  }
+
+  .h3tag {
+    font: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .Home-name {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 550px;
+    justify-content: space-around;
+    left: 170px;
+    top: 20px;
+  }
+
+  .btn-sec {
+    position: relative;
+    left: 800px;
+    top: -78px;
+    height: 40px;
+    max-width: 230px;
+  }
+  .unlock-con {
+    position: relative;
+    bottom: 121px;
+    max-width: 480px;
+    left: 30px;
+    line-height: 55px;
+  }
+  .unlock-name {
+    color: #d2d6db;
+    font-size: 45px;
+    font-family: Plus Jakarta Sans;
+  }
+  .search {
+    position: relative;
+    left: 740px;
+    top: -20px;
+    max-width: 50px;
+    height: 50px;
+  }
+
+  .empower {
+    position: relative;
+    bottom: 100px;
+    max-width: 420px;
+    left: 30px;
+  }
+  .empower-name {
+    color: #d2d6db;
+    font-weight: 300;
+    font-size: 25px;
+  }
+
+  .btn-get-con {
+    position: relative;
+    bottom: 80px;
+    max-width: 690px;
+    left: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn-book {
+    padding: 5px;
+    width: 160px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid #d2d6db;
+    color: #d2d6db;
+  }
+  
+  .btn-get {
+    padding: 5px;
+    width: 160px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #6040ec;
+    color: #d2d6db;
+    border: 2px solid #8c73fb;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .navbar {
+    display: block;
+    width: 40px;
+  }
+
+  .hambur-posi {
+    position: relative;
+    right: 1270px;
+    top: 10px;
+  }
+
+  .hub-inv {
+    position: absolute;
+    left: 15px;
+  }
+  .menu-posi {
+    position: relative;
+    right: 500px;
+    top: -10px;
+  }
+  .menu {
+    background-color: red;
+    color: red;
+    position: relative;
+    left: 90px;
+  }
+
+  .Home-name {
+    display: none;
+  }
+  .btn-sec {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+
+  .big-img {
+    position: relative;
+    top: 27px;
+    left: 35px;
+    width: 100px;
+    height: 120px;
+  }
+  .img-siz {
+    position: relative;
+    height: 280px;
+  }
+
+  .unlock-con {
+    position: relative;
+    bottom: 75px;
+    max-width: 20px;
+    left: 10px;
+    line-height: 30px;
+  }
+  .unlock-name {
+    color: #d2d6db;
+    font-size: 25px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .empower {
+    position: relative;
+    bottom: 80px;
+    max-width: 270px;
+    left: 10px;
+  }
+  .empower-name {
+    color: #d2d6db;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  .btn-get-con {
+    position: relative;
+    bottom: 70px;
+    max-width: 290px;
+    left: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  .btn-book {
+    padding: 5px;
+    width: 260px;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #d2d6db;
+    color: #d2d6db;
+  }
+
+  .btn-get {
+    padding: 5px;
+    width: 260px;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #6040ec;
+    color: #d2d6db;
+    border: 2px solid #8c73fb;
+  }
+}
+
+@media screen and (width: 425px) {
+  .navbar {
+    display: block;
+    width: 40px;
+  }
+
+  .hambur-posi {
+    position: relative;
+    right: 1230px;
+    top: 10px;
+  }
+
+  .hub-inv {
+    position: absolute;
+    left: 15px;
+  }
+  .menu-posi {
+    position: relative;
+    right: 500px;
+    top: -10px;
+  }
+  .menu {
+    background-color: red;
+    color: red;
+    position: relative;
+    left: 90px;
+  }
+
+  .Home-name {
+    display: none;
+  }
+  .btn-sec {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+
+  .big-img {
+    position: relative;
+    top: 27px;
+    left: 71px;
+    width: 100px;
+    height: 120px;
+  }
+  .img-siz {
+    position: relative;
+    height: 280px;
+  }
+
+  .unlock-con {
+    position: relative;
+    bottom: 75px;
+    max-width: 20px;
+    left: 10px;
+    line-height: 30px;
+  }
+  .unlock-name {
+    color: #d2d6db;
+    font-size: 25px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .empower {
+    position: relative;
+    bottom: 80px;
+    max-width: 270px;
+    left: 10px;
+  }
+  .empower-name {
+    color: #d2d6db;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  .btn-get-con {
+    position: relative;
+    bottom: 70px;
+    max-width: 290px;
+    left: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  .btn-book {
+    padding: 5px;
+    width: 260px;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #d2d6db;
+    color: #d2d6db;
+  }
+
+  .btn-get {
+    padding: 5px;
+    width: 260px;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #6040ec;
+    color: #d2d6db;
+    border: 2px solid #8c73fb;
+  }
+}

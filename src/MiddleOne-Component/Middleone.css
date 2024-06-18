@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+.top-clas {
+  position: relative;
+  bottom: 950px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.top-com {
+  color: #d2d6db;
+  font-family: Plus Jakarta Sans;
+}
+.img-head {
+  background-color: #ffffff26;
+  height: 150px;
+  position: relative;
+  bottom: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-filter: grayscale(100%) invert(50%) brightness(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) invert(50%) brightness(100%);
+}
+
+.what-we {
+  position: relative;
+  color: #d2d6db;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  bottom: 800px;
+}
+.what1 {
+  color: #d2d6db;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  word-spacing: 3px;
+}
+
+.hub-act {
+  position: relative;
+  color: #d2d6db;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  bottom: 800px;
+  color: #d2d6db;
+  font-family: Plus Jakarta Sans;
+  word-spacing: 3px;
+}
+
+.hub-h3 {
+  font-weight: 200;
+  max-width: 950px;
+}
+
+.card-con {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  height: 1200px;
+  bottom: 800px;
+  background-color: black;
+  color: #d2d6db;
+}
+
+.card1 {
+  font-family: Plus Jakarta Sans;
+  height: 380px;
+  max-width: 350px;
+  margin: 25px;
+  background-color: #ffffff26;
+  box-shadow: 0px 10px 20px 10px #5c27c080;
+  border-radius: 10px;
+}
+.cardimg {
+  position: relative;
+  top: 20px;
+  font-weight: 300;
+}
+
+.tech-h2 {
+  position: relative;
+  top: 20px;
+  font-weight: 300;
+}
+.h4-tag1 {
+  position: relative;
+  top: 20px;
+  font-weight: 100;
+}
+
+.our-focus {
+  position: relative;
+  bottom: 1500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.our-focus-h2 {
+  font-family: Plus Jakarta Sans;
+  color: #d2d6db;
+  font-weight: 700;
+  font-size: 40px;
+}
+.at-hubnex {
+  position: relative;
+  bottom: 1500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.at-hubnex-h2 {
+  color: #d2d6db;
+  font-weight: 400;
+  font-family: Plus Jakarta Sans;
+}
+
+.acces-con {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 1480px;
+  max-width: 100%;
+  margin-block: 60px;
+}
+
+.access1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 430px;
+  margin-inline: 190px;
+}
+
+.access-h2 {
+  color: #d2d6db;
+  font-weight: 400;
+  font-family: Plus Jakarta Sans;
+  margin-left: 20px;
+}
+@media screen and (max-width: 1450px){
+
+  .card1 {
+    font-family: Plus Jakarta Sans;
+    height: 380px;
+    max-width: 300px;
+    margin: 25px;
+    background-color: #ffffff26;
+    box-shadow: 0px 10px 20px 10px #5c27c080;
+    border-radius: 10px;
+  }
+
+  .access1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 430px;
+    margin-inline: 130px;
+  }
+}
+
+@media screen and (max-width: 1050px){
+ 
+  .at-hubnex-h2 {
+    color: #d2d6db;
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+  }
+  .card1 {
+    font-family: Plus Jakarta Sans;
+    height: 360px;
+    max-width: 400px;
+    margin: 13px;
+    background-color: #ffffff26;
+    box-shadow: 0px 10px 20px 10px #5c27c080;
+    border-radius: 10px;
+    font-size: 13px;
+  }
+
+  .access1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 730px;
+    margin-inline: 30px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .top-clas {
+    position: relative;
+    bottom: 1480px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+  .top-com {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-size: 17px;
+  }
+  .img-head {
+    background-color: #ffffff26;
+    height: 120px;
+    width: 390px;
+    position: relative;
+    bottom: 1450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-filter: grayscale(100%) invert(50%) brightness(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) invert(50%) brightness(100%);
+  }
+
+  .img-respon {
+    height: 25px;
+    position: relative;
+    top: -23px;
+    left: 30px;
+    margin-inline: 5px;
+  }
+  .img-respon1 {
+    margin-inline: 5px;
+    height: 20px;
+    position: relative;
+    top: 23px;
+    right: 250px;
+  }
+
+  .what-we {
+    position: relative;
+    color: #d2d6db;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 1400px;
+  }
+  .what1 {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    word-spacing: 1px;
+    font-size: 18px;
+  }
+
+  .hub-act {
+    position: relative;
+    color: #d2d6db;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 1395px;
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    word-spacing: 1px;
+  }
+
+  .hub-h3 {
+    font-weight: 200;
+    max-width: 950px;
+    font-size: 15px;
+  }
+
+  .card-con {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    height: 2800px;
+    bottom: 1400px;
+    color: #d2d6db;
+  }
+
+  .card1 {
+    font-family: Plus Jakarta Sans;
+    height: 380px;
+    max-width: 350px;
+    margin: 25px;
+    background-color: #ffffff26;
+    box-shadow: 0px 10px 20px 10px #5c27c080;
+    border-radius: 10px;
+    position: relative;
+    bottom: 525px;
+  }
+
+  .our-focus {
+    position: relative;
+    bottom: 2430px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .our-focus-h2 {
+    font-family: Plus Jakarta Sans;
+    color: #d2d6db;
+    font-weight: 700;
+    font-size: 35px;
+  }
+
+  .at-hubnex {
+    position: relative;
+    bottom: 2430px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .at-hubnex-h2 {
+    color: #d2d6db;
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+    font-size: 17px;
+    max-width: 330px;
+  }
+
+  .acces-con {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 2410px;
+    max-width: 100%;
+    margin-block: 1px;
+   
+  }
+
+  .access1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 370px;
+    margin-inline: 10px;
+    background-color: #ffffff26;
+    margin-block: 6px;
+  }
+
+  .access-h2 {
+    color: #d2d6db;
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+    margin-left: 20px;
+    font-size: 22px;
+  }
+
+  .h4-tag1{
+    font-size: 17px;
+  }
+
+  .tech-h2{
+    font-size: 19px;
+  }
+}
+
+
+@media screen and (width: 425px)
+{
+  .img-head {
+    background-color: #ffffff26;
+    height: 120px;
+    width: 425px;
+    position: relative;
+    bottom: 1450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-filter: grayscale(100%) invert(50%) brightness(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) invert(50%) brightness(100%);
+  }
+
+  .img-respon {
+    height: 25px;
+    position: relative;
+    top: -23px;
+    left: 45px;
+    margin-inline: 5px;
+  }
+  .img-respon1 {
+    margin-inline: 5px;
+    height: 20px;
+    position: relative;
+    top: 23px;
+    right: 233px;
+  }
+
+}

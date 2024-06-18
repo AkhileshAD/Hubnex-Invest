@@ -1,0 +1,574 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+.footer-container{
+position: relative;
+bottom: 900px;
+height: 0px;
+}
+.hubnex-in {
+  font: Plus Jakarta Sans;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.inv {
+  max-width: 100%;
+  font-weight: 600;
+  position: relative;
+  bottom: 50px;
+  left: -13px;
+}
+
+.let-us-con {
+  max-width: 276px;
+  position: relative;
+  left: 60px;
+}
+
+.let {
+  font: Plus Jakarta Sans;
+  font-weight: 400;
+}
+
+.learn {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 610px;
+  top: -332px;
+  line-height: 61px;
+  font-size: 22px;
+  font-family: Plus Jakarta Sans;
+}
+
+.learn-1 {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 930px;
+  bottom: 636px;
+  line-height: 62px;
+  font-size: 22px;
+  font-family: Plus Jakarta Sans;
+}
+
+.connect-us {
+  position: relative;
+  bottom: 900px;
+  left: 1350px;
+  font-family: Plus Jakarta Sans;
+  max-width: 200px;
+}
+.img-con {
+  position: relative;
+  bottom: 892px;
+  left: 1350px;
+  max-width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.get-t {
+  position: relative;
+  font-family: Plus Jakarta Sans;
+  bottom: 855px;
+  left: 1350px;
+  max-width: 200px;
+}
+
+.g-img {
+  position: relative;
+  bottom: 855px;
+  left: 1350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 28px;
+  height: 60px;
+}
+
+.numb {
+  position: relative;
+  bottom: 935px;
+  left: 1390px;
+  max-width: 138px;
+  height: 40px;
+  line-height: 18px;
+}
+.h4-tag {
+  font-weight: 400;
+  font-family: Plus Jakarta Sans;
+}
+hr {
+  position: relative;
+  bottom: 825px;
+  left: -10px;
+  max-width: 92%;
+  font-weight: 900;
+}
+.copyr {
+  position: relative;
+  bottom: 825px;
+  left: 620px;
+  max-width: 480px;
+  font-family: Plus Jakarta Sans;
+}
+
+.h3-t {
+  font-weight: 400;
+  word-spacing: 5px;
+}
+
+/* @media screen and (max-width: 1050px){
+  .learn {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 510px;
+    top: -332px;
+    line-height: 61px;
+    font-size: 22px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .learn-1 {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 780px;
+    bottom: 636px;
+    line-height: 62px;
+    font-size: 22px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .connect-us {
+    position: relative;
+    bottom: 900px;
+    left: 1110px;
+    font-family: Plus Jakarta Sans;
+    max-width: 200px;
+  }
+  .img-con {
+    position: relative;
+    bottom: 892px;
+    left: 1100px;
+    max-width: 220px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .get-t {
+    position: relative;
+    font-family: Plus Jakarta Sans;
+    bottom: 855px;
+    left: 1120px;
+    max-width: 200px;
+  }
+  
+  .g-img {
+    position: relative;
+    bottom: 855px;
+    left: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 28px;
+    height: 60px;
+  }
+  
+  .numb {
+    position: relative;
+    bottom: 935px;
+    left: 1160px;
+    max-width: 138px;
+    height: 40px;
+    line-height: 18px;
+  }
+  .h4-tag {
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+  }
+  hr {
+    position: relative;
+    bottom: 825px;
+    left: -10px;
+    max-width: 92%;
+    font-weight: 900;
+  }
+  .copyr {
+    position: relative;
+    bottom: 825px;
+    left: 620px;
+    max-width: 480px;
+    font-family: Plus Jakarta Sans;
+  }
+  
+  .h3-t {
+    font-weight: 400;
+    word-spacing: 5px;
+  }
+  
+} */
+
+@media screen and (max-width: 1450px){
+  .learn {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 510px;
+    top: -332px;
+    line-height: 61px;
+    font-size: 22px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .learn-1 {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 780px;
+    bottom: 636px;
+    line-height: 62px;
+    font-size: 22px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .connect-us {
+    position: relative;
+    bottom: 900px;
+    left: 1110px;
+    font-family: Plus Jakarta Sans;
+    max-width: 200px;
+  }
+  .img-con {
+    position: relative;
+    bottom: 892px;
+    left: 1100px;
+    max-width: 220px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .get-t {
+    position: relative;
+    font-family: Plus Jakarta Sans;
+    bottom: 855px;
+    left: 1120px;
+    max-width: 200px;
+  }
+  
+  .g-img {
+    position: relative;
+    bottom: 855px;
+    left: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 28px;
+    height: 60px;
+  }
+  
+  .numb {
+    position: relative;
+    bottom: 935px;
+    left: 1160px;
+    max-width: 138px;
+    height: 40px;
+    line-height: 18px;
+  }
+  .h4-tag {
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+  }
+  hr {
+    position: relative;
+    bottom: 825px;
+    left: -10px;
+    max-width: 92%;
+    font-weight: 900;
+  }
+  .copyr {
+    position: relative;
+    bottom: 825px;
+    left: 520px;
+    max-width: 480px;
+    font-family: Plus Jakarta Sans;
+  }
+  
+  .h3-t {
+    font-weight: 400;
+    word-spacing: 5px;
+  }
+  
+}
+
+@media screen and (max-width: 1050px){
+  .footer-container{
+    position: relative;
+    bottom: 1200px;
+    height: 0px;
+    }
+
+    .hubnex-in {
+      font: Plus Jakarta Sans;
+      width: 140px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .inv {
+      max-width: 100%;
+      font-weight: 600;
+      position: relative;
+      bottom: 50px;
+      left: -13px;
+    }
+    
+    .let-us-con {
+      max-width: 276px;
+      position: relative;
+      left: 20px;
+      bottom: 50px;
+    }
+    
+    .let {
+      font: Plus Jakarta Sans;
+      font-weight: 400;
+      font-size: 20px;
+    }
+    
+    .learn {
+      max-width: 200px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left: 400px;
+      top: -300px;
+      line-height: 52px;
+      font-size: 18px;
+      font-family: Plus Jakarta Sans;
+    }
+    
+    .learn-1 {
+      max-width: 200px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left: 550px;
+      bottom: 556px;
+      line-height: 52px;
+      font-size: 18px;
+      font-family: Plus Jakarta Sans;
+    }
+    
+    .connect-us {
+      position: relative;
+      bottom: 780px;
+      left: 800px;
+      font-family: Plus Jakarta Sans;
+      max-width: 200px;
+    }
+
+    .connect{
+      font-size: 18px;
+    }
+    .img-con {
+      position: relative;
+      bottom: 772px;
+      left: 760px;
+      max-width: 220px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .get-t {
+      position: relative;
+      font-family: Plus Jakarta Sans;
+      bottom: 775px;
+      left: 790px;
+      max-width: 200px;
+    }
+    
+    .g-img {
+      position: relative;
+      bottom: 780px;
+      left: 770px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: 28px;
+      height: 60px;
+    }
+    
+    .numb {
+      position: relative;
+      bottom: 859px;
+      left: 810px;
+      max-width: 138px;
+      height: 40px;
+      line-height: 18px;
+    }
+    .h4-tag {
+      font-weight: 400;
+      font-family: Plus Jakarta Sans;
+    }
+    hr {
+      position: relative;
+      bottom: 790px;
+      left: -10px;
+      max-width: 92%;
+      font-weight: 900;
+    }
+    .copyr {
+      position: relative;
+      bottom: 800px;
+      left: 320px;
+      max-width: 480px;
+      font-family: Plus Jakarta Sans;
+    }
+    
+    .h3-t {
+      font-weight: 400;
+      word-spacing: 5px;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+  .footer-container{
+    position: relative;
+    bottom: 2300px;
+    height: 0px;
+    }
+  .container{
+    height: 300px;
+    background-color: black;
+  }
+  .hubnex-in {
+    font: Plus Jakarta Sans;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 41px;
+  }
+
+  .inv {
+    position: relative;
+    left: -3px;
+    top: 0px;
+  }
+  .hub {
+    position: relative;
+    left: -8px;
+  }
+  .let-us-con {
+    max-width: 330px;
+    position: relative;
+    left: 40px;
+    top: 15px;
+  }
+  .learn {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+    top: 32px;
+    line-height: 61px;
+    font-size: 22px;
+    font-family: Plus Jakarta Sans;
+  }
+
+  .learn-1 {
+    max-width: 190px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 197px;
+    top:-272px;
+    line-height: 62px;
+    font-size: 22px;
+    font-family:Plus Jakarta Sans;
+    
+  }
+
+  .connect-us {
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+    font-family: Plus Jakarta Sans;
+    max-width: 200px;
+  }
+  .img-con {
+    position: relative;
+    bottom: 190px;
+    left: 50px;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .connect{
+
+    font-size: 25px;
+
+  }
+  .get-t {
+    position: relative;
+    font-family: Plus Jakarta Sans;
+    bottom: 135px;
+    left: 120px;
+    max-width: 200px;
+  }
+  
+  .g-img {
+    position: relative;
+    bottom: 124px;
+    left: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 30px;
+    height: 75px;
+  }
+  .numb {
+    position: relative;
+    bottom: 230px;
+    left: 145px;
+    max-width: 168px;
+    
+    height: 40px;
+    line-height: 24px;
+    font-size: 22px;
+  }
+
+  hr {
+    position: relative;
+    bottom: 125px;
+    left: 10px;
+    max-width: 92%;
+    font-weight: 900;
+  }
+  .copyr {
+    position: relative;
+    bottom: 135px;
+    left: 35px;
+    max-width: 320px;
+    font-family: Plus Jakarta Sans;
+    justify-content: center;
+    text-align: center;
+  }  
+}

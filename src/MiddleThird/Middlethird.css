@@ -1,0 +1,573 @@
+.Testimonials-main-con {
+  background-color: black;
+  height: 2000px;
+  position: relative;
+  bottom: 900px;
+}
+
+.Testimonials-div {
+  color: white;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.Test-con {
+  position: relative;
+  top: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.test-h4-div {
+  position: relative;
+  max-width: 990px;
+  left: 0px;
+  top: 10px;
+}
+
+.Test-div1 {
+  background-color: #ffffff26;
+  max-width: 350px;
+  margin-inline: 90px;
+  border-radius: 20px;
+  height: 350px;
+  justify-content: center;
+  text-align: center;
+}
+
+.test-img-size {
+  max-width: 90px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.Test-h3 {
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  color: #d2d6db;
+  position: relative;
+  left: 30px;
+  top: 12px;
+  font-size: 18px;
+}
+.Test-h4 {
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  color: #d2d6db;
+}
+
+.varma-img {
+  display: flex;
+  flex-direction: row;
+}
+.Test-h3-tag {
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  color: #d2d6db;
+  position: relative;
+  left: 25px;
+  bottom: 38px;
+}
+
+.test-star-img {
+  position: relative;
+  top: 10px;
+  left: 100px;
+}
+
+.FA-con {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  top: 150px;
+  position: relative;
+}
+.fa-div {
+  color: #d2d6db;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+}
+
+.what-invest-con {
+  color: white;
+  position: relative;
+  top: 230px;
+  left: 70px;
+  max-width: 1600px;
+}
+
+.line-tag {
+  display: flex;
+  background-color: #d2d6db;
+  height: 1px;
+  max-width: 1560px;
+}
+
+.wht-invest {
+  color: #d2d6db;
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  margin-block-start: 30px;
+  max-width: 600px;
+}
+
+.btn-fa {
+  position: relative;
+  top: 240px;
+  left: 75px;
+  width: 300px;
+}
+.more-fa {
+  font-size: 18px;
+  padding: 20px;
+  width: 250px;
+  background: #d2d6db;
+  border: 2px solid #d2d6db;
+  border-radius: 10px;
+  color: black;
+  font-weight: 900;
+}
+
+.are-you-con {
+  position: relative;
+  top: 370px;
+  color: #d2d6db;
+  max-width: 500px;
+  height: 280px;
+  left: 60px;
+  line-height: 55px;
+}
+.are-you-div {
+  font-size: 40px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+}
+
+.btn-demo1 {
+  position: relative;
+  top: 450px;
+  left: 60px;
+  width: 300px;
+}
+.btn-book-demo {
+  font-size: 18px;
+  padding: 20px;
+  width: 250px;
+  background: #6040ec;
+  border: 2px solid #6040ec;
+  border-radius: 10px;
+  color: #d2d6db;
+  font-weight: 900;
+}
+
+.for-more-div {
+  position: relative;
+  left: 1050px;
+  width: 550px;
+}
+.for-h4 {
+  color: #d2d6db;
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+}
+
+.input-box-con {
+  position: relative;
+  left: 930px;
+  max-width: 500px;
+  height: 400px;
+}
+
+.inputbox {
+  position: relative;
+  width: 380px;
+  top: 30px;
+  left: 100px;
+  margin: 20px;
+}
+
+.inputbox input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.inputbox span {
+  position: absolute;
+  left: 0px;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+  bottom: 0px;
+}
+
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span {
+  color: #4f21a1;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.inputbox i {
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #4f21a1;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.inputbox input:valid ~ i,
+.inputbox input:focus ~ i {
+  height: 44px;
+}
+
+.btn-submit {
+  position: relative;
+  bottom: 10px;
+  left: 1050px;
+  width: 300px;
+}
+.btn-book-demo {
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1450px){
+  .Test-div1 {
+    background-color: #ffffff26;
+    max-width: 350px;
+    margin-inline: 30px;
+    border-radius: 20px;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .what-invest-con {
+    color: white;
+    position: relative;
+    top: 230px;
+    left: 70px;
+    max-width: 1250px;
+  }
+
+  .for-more-div {
+    position: relative;
+    left: 850px;
+    width: 550px;
+  }
+
+  .btn-submit {
+    position: relative;
+    bottom: 10px;
+    left: 850px;
+    width: 300px;
+  }
+  .input-box-con {
+    position: relative;
+    left: 730px;
+    max-width: 500px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1050px){
+
+  .Testimonials-main-con {
+    background-color: black;
+    height:2000px;
+    position: relative;
+    bottom: 1220px;
+  }
+
+  .what-invest-con {
+    color: white;
+    position: relative;
+    top: 230px;
+    left: 30px;
+    max-width: 950px;
+  }
+
+  .btn-fa {
+    position: relative;
+    top: 240px;
+    left: 32px;
+    width: 300px;
+  }
+
+  .are-you-con {
+    position: relative;
+    top: 370px;
+    color: #d2d6db;
+    max-width: 500px;
+    height: 280px;
+    left: 30px;
+    line-height: 55px;
+    font-size: 5px;
+  }
+
+  .are-you-div {
+    font-size: 30px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+  }
+
+  .btn-demo1 {
+    position: relative;
+    top: 400px;
+    left: 30px;
+    width: 300px;
+  }
+
+  .input-box-con {
+    position: relative;
+    left: 430px;
+    max-width: 500px;
+    height: 400px;
+  }
+
+  .for-more-div {
+    position: relative;
+    left: 550px;
+    width: 350px;
+  }
+
+  .btn-submit {
+    position: relative;
+    bottom: 10px;
+    left: 550px;
+    width: 300px;
+  }
+
+
+  .Test-con {
+    position: relative;
+    top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .test-h4-div {
+    position: relative;
+    max-width: 990px;
+    left: 0px;
+    top: 10px;
+  }
+  
+  .Test-div1 {
+    background-color: #ffffff26;
+    max-width: 350px;
+    margin-inline: 20px;
+    border-radius: 20px;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Test-h3-tag {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    color: #d2d6db;
+    position: relative;
+    left: 110px;
+    bottom: 45px;
+    width: 180px;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+  .Testimonials-main-con {
+    background-color: black;
+    height: 3050px;
+    position: relative;
+    bottom: 2320px;
+  }
+
+  .Testimonials-div {
+    color: white;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .Test-con {
+    position: relative;
+    top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .test-h4-div {
+    position: relative;
+    max-width: 300px;
+    left: 15px;
+    top: 10px;
+  }
+
+  .Test-div1 {
+    background-color: #ffffff26;
+    max-width: 350px;
+    margin-inline: 30px;
+    border-radius: 20px;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .test-img-size {
+    max-width: 90px;
+    position: relative;
+    left: 20px;
+    top: 16px;
+  }
+
+  .Test-h3 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    color: #d2d6db;
+    position: relative;
+    left: 35px;
+    top: 12px;
+    font-size: 18px;
+  }
+  .Test-h4 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    color: #d2d6db;
+  }
+
+  .varma-img {
+    display: flex;
+    flex-direction: row;
+  }
+  .Test-h3-tag {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    color: #d2d6db;
+    position: relative;
+    left: 94px;
+    bottom: 44px;
+    width: 220px;
+  }
+
+  .test-star-img {
+    position: relative;
+    top: 10px;
+    left: 100px;
+  }
+
+  .FA-con {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 130px;
+    position: relative;
+  }
+
+  .what-invest-con {
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 18px;
+    max-width: 350px;
+  }
+
+  .wht-invest {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    margin-block-start: 30px;
+    max-width: 600px;
+    font-size: 14px;
+  }
+
+  .are-you-con {
+    position: relative;
+    top: 320px;
+    color: #d2d6db;
+    max-width: 350px;
+    height: 280px;
+    left: 20px;
+    line-height: 30px;
+  }
+  .are-you-div {
+    font-size: 20px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+  }
+
+  .btn-demo1 {
+    position: relative;
+    top: 230px;
+    left: 70px;
+    width: 300px;
+  }
+
+  .for-more-div {
+    position: relative;
+    left: 20px;
+    width: 350px;
+    top: 300px;
+    display: flex;
+    text-align: center;
+  }
+  .for-h4 {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+  }
+
+  .input-box-con {
+    position: relative;
+    left: 0px;
+    max-width: 150px;
+    height: 400px;
+  }
+
+  .inputbox {
+    position: relative;
+    width: 300px;
+    top: 320px;
+    left: 0px;
+    margin: 20px;
+  }
+
+  .btn-submit {
+    position: relative;
+    top: 280px;
+    left: 23px;
+    width: 280px;
+  }
+}
