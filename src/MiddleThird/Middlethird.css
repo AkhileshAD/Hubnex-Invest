@@ -365,7 +365,10 @@
     width: 300px;
   }
 
-
+.test-img-size{
+  position: relative;
+  top: 14px;
+}
   .Test-con {
     position: relative;
     top: 50px;
