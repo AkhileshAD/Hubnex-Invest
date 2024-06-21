@@ -71,7 +71,7 @@ function Middlethird() {
             </div>
 
             <div className='btn-demo1'>
-                <button className='btn-book-demo' type="button">Book Demo</button>
+                <button className='btn-book-demo' type="button">Apply</button>
             </div>
 
             <div className='for-more-div'>

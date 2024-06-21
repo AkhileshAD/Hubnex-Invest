@@ -315,7 +315,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1400px) {
   .btn-sec {
     position: relative;
     left: 1160px;
@@ -762,22 +762,22 @@ body {
     display: none;
   }
   .unlock-con {
-    bottom: 295px;
-    max-width: 450px;
-    left: 30px;
-    line-height: 60px;
-    height: auto;
+    position: relative;
+    bottom: 315px;
+    max-width: 570px;
+    left: 20px;
   }
   .unlock-name {
     color: #d2d6db;
-    font-size: 40px;
+    font-size: 45px;
     font-family: Plus Jakarta Sans;
+    line-height: 70px;
   }
 
   .empower {
-    bottom: 295px;
+    bottom: 315px;
     max-width: 420px;
-    left: 30px;
+    left: 25px;
   }
   .empower-name {
     color: #d2d6db;
@@ -794,7 +794,7 @@ body {
   }
   .btn-get-con {
     position: relative;
-    bottom: 295px;
+    bottom: 305px;
     max-width: 690px;
     left: 20px;
     display: flex;
@@ -830,13 +830,13 @@ body {
   .hambur-posi {
     position: relative;
     right: 910px;
-    bottom: 780px;
+    bottom: 820px;
   }
 
   .menu-posi {
     position: relative;
     right: 170px;
-    bottom: 492px;
+    bottom: 855px;
   }
 }
 
@@ -944,7 +944,7 @@ body {
   .hambur-posi {
     position: relative;
     right: 1240px;
-    bottom: 455px;
+    bottom: 470px;
     background-color: red;
   }
 
@@ -955,7 +955,7 @@ body {
   .menu-posi {
     position: relative;
     right: 470px;
-    top: -495px;
+    top: -508px;
   }
   .menu {
     position: relative;
@@ -988,12 +988,13 @@ body {
 
   .unlock-con {
     position: relative;
-    bottom: 125px;
+    bottom: 130px;
     max-width: 270px;
     left: 10px;
-    line-height: 35px;
+   
   }
   .unlock-name {
+    line-height: 40px;
     color: #d2d6db;
     font-size: 25px;
     font-family: Plus Jakarta Sans;
@@ -1001,7 +1002,7 @@ body {
 
   .empower {
     position: relative;
-    bottom: 125px;
+    bottom: 135px;
     max-width: 250px;
     left: 10px;
   }
@@ -1013,9 +1014,9 @@ body {
 
   .btn-get-con {
     position: relative;
-    bottom: 120px;
+    bottom: 130px;
     max-width: 290px;
-    left: 5px;
+    left: 3px;
     display: flex;
     flex-direction: row;
   }
@@ -1024,7 +1025,7 @@ body {
     padding: 5px;
     width: 120px;
     font-size: 12px;
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: #6040ec;
     color: #d2d6db;
     border: 2px solid #8c73fb;

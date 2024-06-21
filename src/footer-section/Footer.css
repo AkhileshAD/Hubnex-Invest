@@ -22,9 +22,10 @@
 }
 
 .let-us-con {
-  max-width: 276px;
+  max-width: 316px;
   position: relative;
   left: 60px;
+  bottom: 30px;
 }
 
 .let {
@@ -452,7 +453,7 @@ hr {
 @media screen and (max-width: 1050px) {
   .footer-container {
     position: relative;
-    bottom: 1200px;
+    bottom: 1300px;
     height: 0px;
   }
 
