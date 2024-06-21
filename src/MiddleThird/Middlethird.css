@@ -5,7 +5,7 @@
   bottom: 900px;
 }
 
-.Testimonials-font{
+.Testimonials-font {
   font-family: Plus Jakarta Sans;
   font-weight: 700;
 }
@@ -87,6 +87,7 @@
 }
 
 .FA-con {
+  display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -257,8 +258,7 @@
   width: 300px;
 }
 
-
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 1450px) {
   .Test-div1 {
     background-color: #ffffff26;
     max-width: 350px;
@@ -295,13 +295,234 @@
     max-width: 500px;
     height: 400px;
   }
+
+  .line-tag {
+    display: flex;
+    background-color: #d2d6db;
+    height: 1px;
+    width: 85%;
+  }
 }
 
-@media screen and (max-width: 1050px){
-
+@media screen and (max-width: 1300px){
   .Testimonials-main-con {
     background-color: black;
-    height:2000px;
+    height: 2000px;
+    position: relative;
+    bottom:1100px;
+  }
+  .for-more-div {
+    left: 850px;
+    width: 400px;
+    top: 20px;
+  }
+  .for-h4 {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  .what-invest-con {
+    color: white;
+    top: 230px;
+    max-width: 100%;
+    left: 0px;
+    padding-left: 55px;
+  }
+
+  .line-tag {
+    display: flex;
+    background-color: #d2d6db;
+    height: 1px;
+    width: 85%;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .Testimonials-main-con {
+  }
+  .for-h4 {
+    font-size: medium;
+  }
+  .what-invest-con {
+    color: white;
+    position: relative;
+    top: 200px;
+    right: 100px;
+    max-width: 700px;
+  }
+  .wht-invest {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    margin-block-start: 30px;
+    max-width: 700px;
+    font-size: 20 px;
+    right: 100px;
+  }
+
+  
+
+  .FA-con {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 150px;
+    position: relative;
+    left: -110px;
+  }
+  .fa-div {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+  }
+  .line-tag {
+    width: 900px;
+  }
+  .Test-con {
+    position: relative;
+    top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .for-more-div {
+    left: 700px;
+    width: 400px;
+  }
+  .for-h4 {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .input-box-con {
+    left: 580px;
+    max-width: 500px;
+  }
+  .btn-submit {
+    left: 700px;
+  }
+}
+
+
+@media screen and (max-width: 1100px) {
+  .Testimonials-main-con {
+    background-color: black;
+    height: 2000px;
+    position: relative;
+    bottom: 1050px;
+  }
+
+  .Test-con {
+    position: relative;
+    top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  .Test-div1 {
+    background-color: #ffffff26;
+    max-width: 420px;
+    margin-inline: 10px;
+    border-radius: 15px;
+    height: 360px;
+  }
+
+  .what-invest-con {
+    color: white;
+    top: 230px;
+    max-width: 100%;
+    left: 0px;
+    padding-left: 35px;
+  }
+
+  .line-tag {
+    display: flex;
+    background-color: #d2d6db;
+    height: 1px;
+    width: 85%;
+  }
+
+  .btn-fa {
+    position: relative;
+    top: 240px;
+    left: 45px;
+    width: 300px;
+  }
+
+  .are-you-con {
+    left: 40px;
+  }
+
+  .btn-demo1 {
+    left: 40px;
+  }
+
+  .for-more-div {
+    left: 600px;
+    width: 500px;
+  }
+  .for-h4 {
+    color: #d2d6db;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  .input-box-con {
+    left: 480px;
+    max-width: 500px;
+  }
+
+  .inputbox span {
+    font-size: 25px;
+  }
+
+  .btn-submit {
+    left: 600px;
+  }
+
+  .Test-h3-tag {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    color: #d2d6db;
+    position: relative;
+    left: 110px;
+    bottom: 35px;
+    width: 180px;
+  }
+
+  .Test-h3 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    color: #d2d6db;
+    position: relative;
+    left: 30px;
+    top: 22px;
+    font-size: 18px;
+  }
+
+  .FA-con {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .Testimonials-main-con {
+    background-color: black;
+    height: 2000px;
     position: relative;
     bottom: 1220px;
   }
@@ -365,10 +586,10 @@
     width: 300px;
   }
 
-.test-img-size{
-  position: relative;
-  top: 14px;
-}
+  .test-img-size {
+    position: relative;
+    top: 14px;
+  }
   .Test-con {
     position: relative;
     top: 50px;
@@ -378,14 +599,14 @@
     justify-content: center;
     text-align: center;
   }
-  
+
   .test-h4-div {
     position: relative;
     max-width: 990px;
     left: 0px;
     top: 10px;
   }
-  
+
   .Test-div1 {
     background-color: #ffffff26;
     max-width: 350px;
@@ -407,7 +628,7 @@
   }
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 770px) {
   .Testimonials-main-con {
     background-color: black;
     height: 2600px;
@@ -428,7 +649,7 @@
 
   .Test-div1 {
     background-color: #ffffff26;
-    max-width:450px;
+    max-width: 450px;
     margin-inline: 30px;
     border-radius: 20px;
     height: 350px;
@@ -581,7 +802,6 @@
     left: 420px;
     width: 280px;
   }
-
 }
 
 @media screen and (max-width: 430px) {

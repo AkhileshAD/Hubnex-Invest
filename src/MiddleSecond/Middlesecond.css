@@ -168,6 +168,7 @@
   margin-top: 30px;
 }
 
+
 @media screen and (max-width: 1450px) {
   .hr-tag {
     background-color: #d2d6db;
@@ -182,6 +183,138 @@
     margin-inline: 40px;
   }
 }
+
+@media screen and (max-width : 1300px){
+
+  .Mid-sec-con {
+    background-color: black;
+    height: 1600px;
+    position: relative;
+    bottom: 1520px;
+  }
+  .success-con {
+    top: 30px;
+    height: 570px;
+  }
+
+  .cloud-con {
+    margin: 10px;
+    color: #d2d6db;
+    font-weight: 700;
+    width: 330px;
+    top: 90px;
+  }
+
+  .success-img-con {
+    position: relative;
+    bottom: 430px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cloud-h3 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .lap-pos-img {
+    width: 220px;
+  }
+
+  .cloud-h4 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 200;
+    margin-top: 3px;
+    font-size: 14px;
+  }
+
+  .hr-tag {
+    max-width: 3px;
+    position: relative;
+    left: 633px;
+  }
+
+  .right-sign-button{
+    margin-left: 20px;
+  }
+
+  .hubnex-story-succes {
+    display: flex;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width : 1200px){
+  .hr-tag {
+    max-width: 3px;
+    left: 585px;
+  }
+
+}
+
+
+@media screen and (max-width : 1100px){
+
+
+  .Mid-sec-con {
+    background-color: black;
+    height: 1600px;
+    position: relative;
+    bottom: 1520px;
+  }
+  .success-con {
+    top: 30px;
+    height: 570px;
+  }
+
+  .cloud-con {
+    margin: 10px;
+    color: #d2d6db;
+    font-weight: 700;
+    width: 250px;
+    top: 90px;
+  }
+
+  .success-img-con {
+    position: relative;
+    bottom: 430px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cloud-h3 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .lap-pos-img {
+    width: 200px;
+  }
+
+  .cloud-h4 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 200;
+    margin-top: 3px;
+    font-size: 14px;
+  }
+
+  .hr-tag {
+    max-width: 3px;
+    left: 490px;
+  }
+
+  .right-sign-button{
+    margin-left: 20px;
+  }
+
+  .hubnex-story-succes {
+    display: flex;
+    text-align: center;
+  }
+
+}
+
 
 @media screen and (max-width: 1050px) {
   .hr-tag {

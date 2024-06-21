@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.head-container {
+  width: 100%;
+}
 .menu-icon {
   display: flex;
   flex-direction: column;
@@ -24,8 +28,6 @@ body {
   margin: 4px 0;
   transition: transform 0.3s ease-in-out;
 }
-
-
 
 .open {
   transform: rotate(-45deg);
@@ -169,12 +171,18 @@ body {
   background-color: #232323;
 }
 
-
 .big-img {
   position: relative;
   top: -73px;
-  left: 642px;
-  max-width: 600px;
+  display: flex;
+  max-width: 100%;
+  justify-content: end;
+  align-items: center;
+}
+
+.img-siz {
+  width: 60%;
+  height: auto;
 }
 .unlock-con {
   position: relative;
@@ -206,6 +214,8 @@ body {
   left: 60px;
   display: flex;
   flex-direction: row;
+  display: flex;
+  text-align: center;
 }
 
 .btn-book {
@@ -221,7 +231,7 @@ body {
 
 .btn-get {
   padding: 15px;
-  width: 460px;
+  width: 280px;
   font-size: 23px;
   border-radius: 10px;
   margin: 10px;
@@ -230,21 +240,19 @@ body {
   border: 2px solid #8c73fb;
 }
 
-
-
 @media screen and (max-width: 1450px) {
   .big-img {
     position: relative;
-    top: -71px;
-    left: 453px;
-    width: 100px;
-    height: 120px;
+    top: -73px;
+    display: flex;
+    max-width: 100%;
+    justify-content: end;
+    align-items: center;
   }
 
-
   .img-siz {
-    position: relative;
-    height: 780px;
+    width: 60%;
+    height: auto;
   }
   .Home-name {
     position: relative;
@@ -255,7 +263,13 @@ body {
     left: 270px;
     top: 10px;
   }
-
+  .search {
+    position: relative;
+    left: 1110px;
+    top: -37px;
+    max-width: 50px;
+    height: 50px;
+  }
   .btn-sec {
     position: relative;
     left: 1200px;
@@ -265,29 +279,15 @@ body {
   }
   .unlock-con {
     position: relative;
-    bottom: 161px;
+    bottom: 741px;
     max-width: 990px;
     left: 40px;
     line-height: 130px;
   }
 
-  .search {
-    position: relative;
-    left: 1110px;
-    top: -37px;
-    max-width: 50px;
-    height: 50px;
-  }
-
-  .unlock-name {
-    color: #d2d6db;
-    font-size: 78px;
-    font-family: Plus Jakarta Sans;
-  }
-
   .empower {
     position: relative;
-    bottom: 180px;
+    bottom: 750px;
     max-width: 770px;
     left: 40px;
   }
@@ -297,26 +297,332 @@ body {
     font-size: 45px;
   }
 
+  .unlock-name {
+    color: #d2d6db;
+    font-size: 78px;
+    font-family: Plus Jakarta Sans;
+  }
+
   .btn-get-con {
     position: relative;
-    bottom: 150px;
-    max-width: 690px;
+    bottom: 750px;
+    max-width: 390px;
     left: 35px;
     display: flex;
     flex-direction: row;
+    display: flex;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1400px){
+  .btn-sec {
+    position: relative;
+    left: 1160px;
+    top: -90px;
+    height: 35px;
+    max-width: 230px;
+  }
+  .big-img {
+    position: relative;
+    top: -67px;
+    display: flex;
+    max-width: 100%;
+    justify-content: end;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-con {
+    height: 80px;
+    width: 100%;
+  }
+
+  .hub-inv {
+    display: flex;
+    flex-direction: column;
+    max-width: 90px;
+    font-size: 20px;
+  }
+
+  .spn1 {
+    font-weight: 400;
+  }
+
+  .Home-name {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 780px;
+    justify-content: space-around;
+    left: 200px;
+    top: 10px;
+  }
+
+  .h3tag {
+    font-weight: 4500;
+  }
+
+  .search {
+    background-color: #fff;
+    position: relative;
+    left: 1000px;
+    top: -37px;
+    max-width: 50px;
+    height: 50px;
+  }
+
+  .img1 {
+    height: 30px;
+  }
+
+  .btn-sec {
+    position: relative;
+    left: 1070px;
+    top: -90px;
+    height: 35px;
+    max-width: 230px;
+  }
+
+  .btn {
+    padding: 10px;
+    width: 100px;
+    margin-right: 15px;
+  }
+
+  .big-img {
+    position: relative;
+    top: -67px;
+    display: flex;
+    max-width: 100%;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .img-siz {
+    width: 60%;
+    height: auto;
+  }
+
+  .unlock-con {
+    max-width: 750px;
+    line-height: 100px;
+    bottom: 610px;
+  }
+
+  .unlock-name {
+    font-size: 70px;
+  }
+
+  .empower {
+    max-width: 500px;
+    bottom: 615px;
+  }
+
+  .empower-name {
+    font-weight: 250;
+    font-size: 30px;
+  }
+
+  .btn-get-con {
+    position: relative;
+    left: 28px;
+    bottom: 610px;
+  }
+
+  .btn-apply {
+    width: 300px;
+    font-size: 24.34px;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    left: 30px;
+    top: -130px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hub-inv {
+    max-width: 100px;
+    left: 20px;
+    font-size: 15px;
+    top: 0px;
+    line-height: 25px;
+  }
+
+  .Home-name {
+    max-width: 750px;
+    left: 120px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .search {
+    left: 860px;
+    top: -37px;
+    max-width: 40px;
+    height: 40px;
+  }
+
+  .btn-sec {
+    left: 920px;
+    top: -80px;
+    height: 30px;
+    max-width: 170px;
+  }
+  .btn {
+    height: 35px;
+    width: 70px;
+    font-size: 10px;
+  }
+
+  .big-img {
+    position: relative;
+    display: flex;
+    max-width: 100%;
+    top: -52px;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .img-siz {
+    width: 70%;
+    height: auto;
+  }
+
+  .unlock-con {
+    bottom: 601px;
+    max-width: 850px;
+    left: 20px;
+  }
+
+  .unlock-name {
+    color: #d2d6db;
+    font-size: 68px;
+    font-family: Plus Jakarta Sans;
+    line-height: 100px;
+  }
+
+  .empower {
+    position: relative;
+    bottom: 610px;
+    max-width: 600px;
+    left: 20px;
+  }
+  .empower-name {
+    color: #d2d6db;
+    font-weight: 300;
+    font-size: 35px;
+  }
+
+  .btn-get-con {
+    position: relative;
+    bottom: 590px;
+    max-width: 550px;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .hub-inv {
+    max-width: 100px;
+    left: 20px;
+    font-size: 15px;
+    top: 0px;
+    line-height: 25px;
+  }
+
+  .Home-name {
+    max-width: 750px;
+    left: 120px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .search {
+    left: 860px;
+    top: -37px;
+    max-width: 40px;
+    height: 40px;
+  }
+
+  .btn-sec {
+    left: 920px;
+    top: -80px;
+    height: 30px;
+    max-width: 170px;
+  }
+  .btn {
+    height: 35px;
+    width: 70px;
+    font-size: 10px;
+  }
+
+  .big-img {
+    position: relative;
+    display: flex;
+    max-width: 100%;
+    top: -52px;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .img-siz {
+    width: 70%;
+    height: auto;
+  }
+
+  .unlock-con {
+    bottom: 601px;
+    max-width: 850px;
+    left: 20px;
+  }
+
+  .unlock-name {
+    color: #d2d6db;
+    font-size: 68px;
+    font-family: Plus Jakarta Sans;
+    line-height: 100px;
+  }
+
+  .empower {
+    position: relative;
+    bottom: 610px;
+    max-width: 600px;
+    left: 20px;
+  }
+  .empower-name {
+    color: #d2d6db;
+    font-weight: 300;
+    font-size: 35px;
+  }
+
+  .btn-get-con {
+    position: relative;
+    bottom: 590px;
+    max-width: 550px;
+    left: 10px;
   }
 }
 
 @media screen and (max-width: 1050px) {
   .big-img {
     position: relative;
+    display: flex;
+    max-width: 100%;
+    justify-content: end;
     top: -60px;
-    left: 138px;
-   
   }
+
   .img-siz {
-    position: relative;
-    height: 700px;
+    width: 80%;
+    height: auto;
   }
   .hub-inv {
     position: absolute;
@@ -355,14 +661,14 @@ body {
   }
   .unlock-con {
     position: relative;
-    bottom: 121px;
-    max-width: 480px;
+    bottom: 621px;
+    max-width: 590px;
     left: 30px;
-    line-height: 55px;
+    line-height: 82px;
   }
   .unlock-name {
     color: #d2d6db;
-    font-size: 45px;
+    font-size: 55px;
     font-family: Plus Jakarta Sans;
   }
   .search {
@@ -375,7 +681,7 @@ body {
 
   .empower {
     position: relative;
-    bottom: 100px;
+    bottom: 620px;
     max-width: 420px;
     left: 30px;
   }
@@ -387,27 +693,16 @@ body {
 
   .btn-get-con {
     position: relative;
-    bottom: 80px;
+    bottom: 580px;
     max-width: 690px;
     left: 25px;
     display: flex;
     flex-direction: row;
   }
 
-  .btn-book {
-    padding: 5px;
-    width: 160px;
-    font-size: 15px;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: transparent;
-    border: 2px solid #d2d6db;
-    color: #d2d6db;
-  }
-  
   .btn-get {
     padding: 5px;
-    width: 160px;
+    width: 200px;
     font-size: 18px;
     border-radius: 10px;
     margin: 10px;
@@ -417,16 +712,18 @@ body {
   }
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 770px) {
   .big-img {
-    position: relative;
-    top: 80px;
-    left: 191px;
+    display: flex;
+    top: 100%;
+    max-width: 100%;
+    justify-content: end;
+    align-items: center;
   }
 
   .img-siz {
-    position: relative;
-    height: 380%;
+    width: 70%;
+    height: auto;
   }
   .hub-inv {
     position: absolute;
@@ -465,16 +762,27 @@ body {
     display: none;
   }
   .unlock-con {
-    position: relative;
-    bottom: -21px;
+    bottom: 295px;
     max-width: 450px;
     left: 30px;
-    line-height: 55px;
+    line-height: 60px;
+    height: auto;
   }
   .unlock-name {
     color: #d2d6db;
-    font-size: 35px;
+    font-size: 40px;
     font-family: Plus Jakarta Sans;
+  }
+
+  .empower {
+    bottom: 295px;
+    max-width: 420px;
+    left: 30px;
+  }
+  .empower-name {
+    color: #d2d6db;
+    font-weight: 300;
+    font-size: 25px;
   }
   .search {
     position: relative;
@@ -484,24 +792,11 @@ body {
     display: none;
     height: 50px;
   }
-
-  .empower {
-    position: relative;
-    bottom: -25px;
-    max-width: 420px;
-    left: 30px;
-  }
-  .empower-name {
-    color: #d2d6db;
-    font-weight: 300;
-    font-size: 25px;
-  }
-
   .btn-get-con {
     position: relative;
-    bottom:-30px;
+    bottom: 295px;
     max-width: 690px;
-    left: 25px;
+    left: 20px;
     display: flex;
     flex-direction: row;
   }
@@ -516,7 +811,7 @@ body {
     border: 2px solid #d2d6db;
     color: #d2d6db;
   }
-  
+
   .btn-get {
     padding: 5px;
     width: 160px;
@@ -535,7 +830,7 @@ body {
   .hambur-posi {
     position: relative;
     right: 910px;
-    bottom: 455px;
+    bottom: 780px;
   }
 
   .menu-posi {
@@ -544,7 +839,6 @@ body {
     bottom: 492px;
   }
 }
-
 
 @media screen and (max-width: 430px) {
   .navbar {
@@ -555,7 +849,7 @@ body {
   .hambur-posi {
     position: relative;
     right: 1270px;
-    bottom: 410px;
+    bottom: 433px;
   }
 
   .hub-inv {
@@ -565,7 +859,7 @@ body {
   .menu-posi {
     position: relative;
     right: 500px;
-    bottom: 450px;
+    bottom: 470px;
   }
   .menu {
     position: relative;
@@ -584,25 +878,24 @@ body {
 
   .big-img {
     position: relative;
-    top: 80px;
-    left: 35px;
-    width: 100px;
-    height: 120px;
+    display: flex;
+    top: 100%;
+    max-width: 100%;
+    justify-content: end;
+    align-items: center;
   }
 
-  
   .img-siz {
-    position: relative;
-    height: 280px;
+    width: 70%;
+    height: auto;
   }
-  
 
   .unlock-con {
     position: relative;
-    bottom: 15px;
-    max-width: 20px;
+    bottom: 115px;
+    max-width: 270px;
     left: 10px;
-    line-height: 30px;
+    line-height: 35px;
   }
   .unlock-name {
     color: #d2d6db;
@@ -612,7 +905,7 @@ body {
 
   .empower {
     position: relative;
-    bottom: 10px;
+    bottom: 110px;
     max-width: 270px;
     left: 10px;
   }
@@ -624,25 +917,16 @@ body {
 
   .btn-get-con {
     position: relative;
-    bottom: 10px;
+    bottom: 110px;
     max-width: 290px;
     left: 5px;
     display: flex;
     flex-direction: row;
   }
-  .btn-book {
-    padding: 5px;
-    width: 260px;
-    font-size: 12px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 2px solid #d2d6db;
-    color: #d2d6db;
-  }
 
   .btn-get {
     padding: 5px;
-    width: 260px;
+    width: 150px;
     font-size: 12px;
     border-radius: 10px;
     background-color: #6040ec;
@@ -659,8 +943,9 @@ body {
 
   .hambur-posi {
     position: relative;
-    right: 1230px;
-    bottom: 420px;
+    right: 1240px;
+    bottom: 455px;
+    background-color: red;
   }
 
   .hub-inv {
@@ -670,15 +955,12 @@ body {
   .menu-posi {
     position: relative;
     right: 470px;
-    top: -454px;
+    top: -495px;
   }
   .menu {
     position: relative;
     left: 90px;
   }
-
-
-
 
   .Home-name {
     display: none;
@@ -692,22 +974,24 @@ body {
 
   .big-img {
     position: relative;
-    top: 80px;
-    left: 71px;
-    width: 100px;
-    height: 120px;
+    display: flex;
+    top: 100%;
+    max-width: 100%;
+    justify-content: end;
+    align-items: center;
   }
+
   .img-siz {
-    position: relative;
-    height: 280px;
+    width: 70%;
+    height: auto;
   }
 
   .unlock-con {
     position: relative;
-    bottom: 25px;
-    max-width: 20px;
+    bottom: 125px;
+    max-width: 270px;
     left: 10px;
-    line-height: 30px;
+    line-height: 35px;
   }
   .unlock-name {
     color: #d2d6db;
@@ -717,8 +1001,8 @@ body {
 
   .empower {
     position: relative;
-    bottom: 20px;
-    max-width: 270px;
+    bottom: 125px;
+    max-width: 250px;
     left: 10px;
   }
   .empower-name {
@@ -729,25 +1013,16 @@ body {
 
   .btn-get-con {
     position: relative;
-    bottom: 20px;
+    bottom: 120px;
     max-width: 290px;
     left: 5px;
     display: flex;
     flex-direction: row;
   }
-  .btn-book {
-    padding: 5px;
-    width: 260px;
-    font-size: 12px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 2px solid #d2d6db;
-    color: #d2d6db;
-  }
 
   .btn-get {
     padding: 5px;
-    width: 260px;
+    width: 120px;
     font-size: 12px;
     border-radius: 10px;
     background-color: #6040ec;

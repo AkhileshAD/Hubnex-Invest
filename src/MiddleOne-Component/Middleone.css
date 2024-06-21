@@ -165,6 +165,26 @@
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .tech-h2 {
+    font-size: 18px;
+  }
+  .h4-tag1 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .card1 {
+    height: 420px;
+    max-width: 350px;
+    margin: 25px;
+    background-color: #ffffff26;
+    box-shadow: 0px 10px 20px 10px #5c27c080;
+    border-radius: 10px;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .at-hubnex-h2 {
     color: #d2d6db;
@@ -311,7 +331,7 @@
     justify-content: center;
     text-align: center;
   }
-  
+
   .at-hubnex {
     position: relative;
     bottom: 3330px;
@@ -522,8 +542,6 @@
     margin-left: 20px;
     font-size: 22px;
   }
-
- 
 }
 
 @media screen and (width: 425px) {

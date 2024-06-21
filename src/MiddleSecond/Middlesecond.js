@@ -68,7 +68,7 @@ function Middlesecond() {
             <h3 className='We-offer-h3'>We believe in the power of startups to drive innovation and change in the world</h3>
           </div>
         </div>
-        <h4 className='hr-tag'></h4>
+       <h4 className='hr-tag'></h4>
 
         <div className='hubnex-story-con'>
           <div className='hubnex-story-succes'>

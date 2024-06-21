@@ -58,6 +58,8 @@ function Header() {
             <button className='btn'>SIGN IN</button>
             <button className='btn'>SIGN UP</button>
           </div>
+
+
           <div className='big-img'>
               <img className='img-siz' src="/Images/website-hosting-concept-with-circuits 1.svg" alt="Image Not Found" />
           </div>
@@ -73,8 +75,7 @@ function Header() {
           </div>
 
           <div className='btn-get-con'>
-            <button className='btn-book' type="button">Book Demo</button>
-            <button className='btn-get' type="button">Get Started</button>
+            <button className='btn-get' type="button">Apply</button>
           </div>
 
           <div className='hambur-posi'>
