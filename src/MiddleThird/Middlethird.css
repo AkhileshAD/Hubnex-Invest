@@ -951,8 +951,9 @@
     color: white;
     position: relative;
     top: 200px;
-    left: 18px;
+    left: -10px;
     max-width: 350px;
+    
   }
 
   .wht-invest {

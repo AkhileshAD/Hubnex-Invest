@@ -849,7 +849,7 @@ body {
   .hambur-posi {
     position: relative;
     right: 1270px;
-    bottom: 433px;
+    bottom: 485px;
   }
 
   .hub-inv {
@@ -859,7 +859,7 @@ body {
   .menu-posi {
     position: relative;
     right: 500px;
-    bottom: 470px;
+    bottom: 520px;
   }
   .menu {
     position: relative;
@@ -886,18 +886,19 @@ body {
   }
 
   .img-siz {
-    width: 70%;
+    width: 80%;
     height: auto;
   }
 
   .unlock-con {
     position: relative;
-    bottom: 115px;
+    bottom: 135px;
     max-width: 270px;
     left: 10px;
-    line-height: 35px;
+   
   }
   .unlock-name {
+    line-height: 42px;
     color: #d2d6db;
     font-size: 25px;
     font-family: Plus Jakarta Sans;
@@ -905,7 +906,7 @@ body {
 
   .empower {
     position: relative;
-    bottom: 110px;
+    bottom: 135px;
     max-width: 270px;
     left: 10px;
   }
@@ -917,7 +918,7 @@ body {
 
   .btn-get-con {
     position: relative;
-    bottom: 110px;
+    bottom: 135px;
     max-width: 290px;
     left: 5px;
     display: flex;
